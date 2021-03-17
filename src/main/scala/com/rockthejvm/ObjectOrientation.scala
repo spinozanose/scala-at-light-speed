@@ -119,7 +119,6 @@ object ObjectOrientation extends App {
     - pattern matching (more later)
   */
   case class Person(name: String, age: Int)
-
   // case classes can be instantiated with the "new" keyword
   // This is using the implicit companion's apply method
   val bob = Person("Bob", 12)
